@@ -1,0 +1,116 @@
+h1 {
+	text-align: center;
+}
+
+
+* {
+	box-sizing: border-box;
+}
+
+
+h2 {
+	float:right;
+	border:1px solid black;
+	font-family: verdana, mono;
+	font-weight: lighter;
+}
+
+	
+
+
+#p1, #p2, #p3 {
+	background-color: #DB7093;
+	text-align: center;
+	margin-left: 15px;
+	margin-right: auto;
+	margin-bottom: 20px;
+	padding-left: 20px;
+	padding-top: 0px;
+	padding-right: 0px;
+    border:1px solid black;
+    width: 120px;
+    height: 120px;
+
+   
+    
+
+   
+}
+
+#h1 {
+	background-color: #4682B4;
+	margin-top: 0px;
+	float: right;
+	width: 35%;
+
+}
+#h3 {
+	background-color: #5F9EA0;
+	margin-top: 0px;
+	float: right;
+	width: 35%;
+}
+#h4 {
+	background-color: #8B008B;
+	margin-top: 0px;
+	float: right;
+	width: 35%;
+}
+p {
+	padding-top: 30px;
+	font-family: sans-serif, arial;
+}
+
+
+
+#row {
+	width: 100%;
+}	
+
+@media (min-width: 992px) {
+#p1 {
+		float: left;
+		width: 29%;
+	}
+#p2 {
+	float: left;
+	width: 29%;
+}
+#p3 {
+	float:left;
+	width: 29%
+}
+	
+		
+
+
+} 
+@media (min-width: 768px) and (max-width: 991px) {
+	#p1 {
+		float: left;
+		width: 47%;
+	}
+	 #p2 {
+		float:right;
+		width: 47%
+	}
+	#p3 {
+		float:left;
+		width: 98%
+	
+	}
+}
+@media (max-width: 767px) {
+	#p1{
+		float: left;
+		width: 95%;
+	}
+	#p2 {
+		float: left;
+		width: 95%;
+	}
+	#p3 {
+		float:left;
+		width: 95%;
+	}
+}
